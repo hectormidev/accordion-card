@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+--Soft-red: hsl(14, 88%, 65%);
+--Soft-violet: hsl(273, 75%, 66%);
+--Soft-blue: hsl(240, 73%, 65%);
+--Very-dark-grayish-blue: hsl(237, 12%, 33%);
+--Dark-grayish-blue: hsl(240, 6%, 50%);
+--Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
+    margin: 0 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    background-color: var(--Light-grayish-blue);
+    padding: 2rem;
+}
+
+.card__img{
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.card__img img{
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    border: 1px solid blue;
+
+}
+
+.card__faq{
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    font-size: .8rem;
+}
+
+footer .attribution{
+    color: var(--Light-grayish-blue);
+    text-align: center;
+}
+
+footer .attribution a{
+    text-decoration: none;
+    color: var(--Light-grayish-blue);
+    font-weight: bolder;
+}
